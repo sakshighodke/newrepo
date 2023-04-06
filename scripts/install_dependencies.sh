@@ -7,9 +7,3 @@ set -e    # stop script execution on any error
 
 #Install Apache httpd
 yum -y install httpd
-#check with: systemctl list-unit-files | grep httpd
-
-#Start httpd Server and set to restart automatically after reboot
-systemctl start httpd
-#check with: systemctl status httpd
-chkconfig httpd on
