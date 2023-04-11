@@ -18,7 +18,4 @@ phases:
             - echo "we are in post build phase"
     artifacts:
     files:
-            - '*'
-    base-directory: base_location
-    name: codepipeline-ap-south-1-146326895795
-    discard-paths : no
+            - '**/*'
